@@ -1,0 +1,170 @@
+body {
+    font-family: 'League Spartan', sans-serif;
+    background-color: hsl(0, 0%, 100%);
+    padding: 5% 10% 0 10%;
+}
+.container-na-sekcje{
+    display: flex;
+}
+.naglowek {
+    font-size: 70px;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    margin: 25px 0 25px 0;
+}
+.napis-pod-h1{
+    font-size: 15px;
+}
+.sekcja1 {
+    width: 40%;
+}
+.sekcja2{
+    width: 40%;
+    margin-left: 20%;
+}
+.contener-na-divy{
+    display: flex;
+    margin-top: 10%;
+}
+.pierwszy-div-w-sekcji-2{
+    display: flex;
+    width: 80%;
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: hsl(300, 24%, 96%);
+}
+.drugi-div-w-sekcji-2{
+    display: flex;
+    width: 80%;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+    background-color: hsl(300, 24%, 96%);
+}
+.trzeci-div-w-sekcji-2{
+    display: flex;
+    width: 80%;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 60px;
+    background-color: hsl(300, 24%, 96%);
+}
+.gwiazdki {
+    vertical-align: middle;
+    width: 17;
+    height: 17;
+}
+.wybrana-gwiazdka{
+    margin-right: 15px;
+}
+.span1-w-sekcji-2{
+    font-weight: 500;
+    color: hsl(300, 43%, 22%);
+}
+.span2-w-sekcji-2{
+    font-weight: 500;
+    color: hsl(300, 43%, 22%);
+}
+.span3-w-sekcji-2{
+    font-weight: 500;
+    color: hsl(300, 43%, 22%);
+}
+.div-na-zdjecia{
+    display: flex;
+    align-items: center;
+}
+.zdjecia-osob{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    margin-right: 15px;
+}
+.imiona-osob {
+    color:hsl(0, 0%, 100%);
+    font-weight: bold;
+}
+.sekcja1-w-kontenerze{
+    background-color: hsl(300, 43%, 22%);
+    width: calc(100%/3);;
+    margin-right: 5%;
+    height: 75%;
+    padding: 30px;
+    border-radius: 10px;
+}
+.sekcja2-w-kontenerze{
+    margin-top: 2%;
+    height: 75%;
+    width: calc(100%/3);;
+    background-color: hsl(300, 43%, 22%);
+    margin-right: 5%;
+    padding: 30px;
+    border-radius: 10px;    
+}
+.sekcja3-w-kontenerze{
+    margin-top: 4%;
+    height: 75%;
+    width: calc(100%/3);
+    background-color: hsl(300, 43%, 22%);
+    padding: 30px;
+    border-radius: 10px;
+}
+.zawod{
+    color: hsl(333, 80%, 67%);
+}
+.cytaty{
+    color: hsl(0, 0%, 100%);
+}
+.div-na-calosc{
+    height: 100%;
+    width: 100%;
+}
+@media screen and (max-width: 767px) {
+    .container-na-sekcje{
+        flex-direction: column;
+    }
+    .sekcja1{
+        width: 100%;
+    }
+    .sekcja2{
+        width: 100%;
+        margin: 0;
+    }
+    .pierwszy-div-w-sekcji-2{
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        width: 100%;
+    }
+    .drugi-div-w-sekcji-2{
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        margin-top: 2%;
+        width: 100%;
+    }
+    .trzeci-div-w-sekcji-2{
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        margin-top: 2%;
+        width: 100%;
+    }
+    .contener-na-divy{
+        flex-direction: column;
+    }
+    .sekcja1-w-kontenerze{
+        width: 90%;
+    }
+    .sekcja2-w-kontenerze{
+        width: 90%;
+    }
+    .sekcja3-w-kontenerze{
+        width: 90%;
+    }
+    .naglowek{
+        font-size: 30px;
+    }
+}
